@@ -279,7 +279,7 @@ AMA-Bench/
 ├── src/
 │   ├── method/             # Memory method implementations (BM25, embedding, AMA-Agent, …)
 │   ├── synthetic_data_gen/ # Trajectory synthesis tools (BabyAI, TextWorld)
-│   ├── heuristic_data_gen/ # Heuristic agent and tools to generates trajectories and QAs (Crafter)
+│   ├── heuristic_data_gen/ # Heuristic agent and tools to generate trajectories and QAs (Crafter)
 │   ├── run.py              # Main evaluation entry point
 │   ├── evaluate.py         # LLM-as-judge evaluation
 │   └── model_client.py     # Unified client for different LLM providers
