@@ -279,7 +279,7 @@ AMA-Bench/
 ├── src/
 │   ├── method/             # Memory method implementations (BM25, embedding, AMA-Agent, …)
 │   ├── synthetic_data_gen/ # Trajectory synthesis tools (BabyAI, TextWorld)
-│   ├── heuristic_data_gen/ # Heuristic agent that generates trajectories while playing and QA tools (Crafter)
+│   ├── heuristic_data_gen/ # Heuristic agent and tools to generates trajectories and QAs (Crafter)
 │   ├── run.py              # Main evaluation entry point
 │   ├── evaluate.py         # LLM-as-judge evaluation
 │   └── model_client.py     # Unified client for different LLM providers
@@ -305,7 +305,7 @@ AMA-Bench/
 
 - **BabyAI** — grid-world navigation tasks with natural language instructions
 - **TextWorld** — text-based interactive fiction environments
-- **Crafter** — pixel-art 2D open-world survival environment.
+- **Crafter** — pixel-art 2D open-world survival environment
 
 Both include trajectory generation, automatic QA pair creation via state tracking, and token-based length binning. See [src/synthetic_data_gen/README.md](src/synthetic_data_gen/README.md) for details.
 
